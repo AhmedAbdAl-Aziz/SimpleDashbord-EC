@@ -1,1 +1,2 @@
-welcome in index page
+@include('layouts.header')
+@section('content')

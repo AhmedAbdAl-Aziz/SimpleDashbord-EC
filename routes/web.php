@@ -7,4 +7,13 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::resource('example',Dashboard::class);
+Route::resource('dashboard',Dashboard::class);
+
+
+
+
+
+// Route::prefix('dashboard')->group(function () {
+//     Route::get('index',);
+
+// });
